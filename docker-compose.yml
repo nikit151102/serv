@@ -1,0 +1,9 @@
+version: '0.1'
+services:
+  backend:
+    build:
+      context: ./serv
+      dockerfile: Dockerfile-backend
+    ports:
+      - "8000:8000"
+    
